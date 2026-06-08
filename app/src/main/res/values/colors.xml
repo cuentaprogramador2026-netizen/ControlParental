@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF6750A4</color>
+    <color name="primary_variant">#FF4F378B</color>
+    <color name="secondary">#FF625B71</color>
+    <color name="background">#FFFFFBFE</color>
+    <color name="surface">#FFFFFBFE</color>
+    <color name="error">#FFB3261E</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+    <color name="on_background">#FF1C1B1F</color>
+    <color name="on_surface">#FF1C1B1F</color>
+    <color name="lock_background">#FF000000</color>
+    <color name="lock_card">#FF1C1B1F</color>
+    <color name="lock_accent">#FF6750A4</color>
+    <color name="lock_text">#FFFFFFFF</color>
+</resources>

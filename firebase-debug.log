@@ -1,0 +1,160 @@
+[debug] [2026-06-08T01:40:51.025Z] ----------------------------------------------------------------------
+[debug] [2026-06-08T01:40:51.029Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2026-06-08T01:40:51.029Z] CLI Version:   15.19.1
+[debug] [2026-06-08T01:40:51.029Z] Platform:      win32
+[debug] [2026-06-08T01:40:51.029Z] Node Version:  v24.13.0
+[debug] [2026-06-08T01:40:51.029Z] Time:          Sun Jun 07 2026 20:40:51 GMT-0500 (hora de Ecuador)
+[debug] [2026-06-08T01:40:51.030Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Proyectos\ControlParental
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2026-06-08T01:41:01.383Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-08T01:41:01.384Z] > authorizing via signed-in user (cuentaprogramador2026@gmail.com)
+[debug] [2026-06-08T01:41:20.728Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:41:20.729Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:41:20.732Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2026-06-08T01:41:20.732Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"com.controlparental.app"}
+[debug] [2026-06-08T01:41:21.092Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 400
+[debug] [2026-06-08T01:41:21.092Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT"}}
+[debug] [2026-06-08T01:41:21.092Z] Couldn't check if project ID com.controlparental.app is available. Original error: FirebaseError: Failed to check if project ID is available. See firebase-debug.log for more info.
+[debug] [2026-06-08T01:41:47.854Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:41:47.854Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:41:47.855Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2026-06-08T01:41:47.855Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"com.controlparental.app","name":"com.controlparental.app"}
+[debug] [2026-06-08T01:41:48.196Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2026-06-08T01:41:48.197Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"},{"field":"display_name","description":"project display name contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2026-06-08T01:41:48.411Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2026-06-08T01:41:55.120Z] ----------------------------------------------------------------------
+[debug] [2026-06-08T01:41:55.126Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2026-06-08T01:41:55.126Z] CLI Version:   15.19.1
+[debug] [2026-06-08T01:41:55.126Z] Platform:      win32
+[debug] [2026-06-08T01:41:55.127Z] Node Version:  v24.13.0
+[debug] [2026-06-08T01:41:55.127Z] Time:          Sun Jun 07 2026 20:41:55 GMT-0500 (hora de Ecuador)
+[debug] [2026-06-08T01:41:55.127Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Proyectos\ControlParental
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2026-06-08T01:42:01.851Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-08T01:42:01.851Z] > authorizing via signed-in user (cuentaprogramador2026@gmail.com)
+[debug] [2026-06-08T01:42:16.972Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:42:16.972Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:42:16.974Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2026-06-08T01:42:16.974Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"ControlParental"}
+[debug] [2026-06-08T01:42:17.514Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2026-06-08T01:42:17.515Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"controlparental-d9935"}
+[debug] [2026-06-08T01:42:53.019Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:42:53.019Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:42:53.020Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2026-06-08T01:42:53.020Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"controlparental-app-2026"}
+[debug] [2026-06-08T01:42:53.397Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2026-06-08T01:42:53.397Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_AVAILABLE","suggestedProjectId":"controlparental-app-2026"}
+[debug] [2026-06-08T01:43:31.705Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:31.706Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:31.706Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2026-06-08T01:43:31.706Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"controlparental-app-2026","name":"controlparental-app-2026"}
+[debug] [2026-06-08T01:43:32.170Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2026-06-08T01:43:32.170Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.8866649371872159484"}
+[debug] [2026-06-08T01:43:32.171Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:32.172Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:32.172Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8866649371872159484 [none]
+[debug] [2026-06-08T01:43:32.563Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8866649371872159484 200
+[debug] [2026-06-08T01:43:32.563Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8866649371872159484 {"name":"operations/create_project.global.8866649371872159484"}
+[debug] [2026-06-08T01:43:33.076Z] [Project Creation Poller] Retrying task index 0
+[debug] [2026-06-08T01:43:33.077Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:33.077Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:33.077Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8866649371872159484 [none]
+[debug] [2026-06-08T01:43:33.254Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8866649371872159484 200
+[debug] [2026-06-08T01:43:33.254Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8866649371872159484 {"name":"operations/create_project.global.8866649371872159484"}
+[debug] [2026-06-08T01:43:34.262Z] [Project Creation Poller] Retrying task index 0
+[debug] [2026-06-08T01:43:34.263Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:34.263Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:34.263Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8866649371872159484 [none]
+[debug] [2026-06-08T01:43:34.426Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8866649371872159484 200
+[debug] [2026-06-08T01:43:34.427Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8866649371872159484 {"name":"operations/create_project.global.8866649371872159484","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"222334308932","projectId":"controlparental-app-2026","lifecycleState":"ACTIVE","name":"controlparental-app-2026","createTime":"2026-06-08T01:43:33.630Z"}}
+[debug] [2026-06-08T01:43:34.428Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:34.428Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:43:34.428Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/controlparental-app-2026:addFirebase [none]
+[debug] [2026-06-08T01:43:35.271Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/controlparental-app-2026:addFirebase 403
+[debug] [2026-06-08T01:43:35.271Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/controlparental-app-2026:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-06-08T01:43:35.271Z] Request to https://firebase.googleapis.com/v1beta1/projects/controlparental-app-2026:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2026-06-08T01:43:35.500Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/controlparental-app-2026:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2026-06-08T01:51:58.472Z] ----------------------------------------------------------------------
+[debug] [2026-06-08T01:51:58.476Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2026-06-08T01:51:58.477Z] CLI Version:   15.19.1
+[debug] [2026-06-08T01:51:58.477Z] Platform:      win32
+[debug] [2026-06-08T01:51:58.477Z] Node Version:  v24.13.0
+[debug] [2026-06-08T01:51:58.477Z] Time:          Sun Jun 07 2026 20:51:58 GMT-0500 (hora de Ecuador)
+[debug] [2026-06-08T01:51:58.478Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-08T01:51:58.736Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-08T01:51:58.736Z] > authorizing via signed-in user (cuentaprogramador2026@gmail.com)
+[debug] [2026-06-08T01:51:58.738Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:51:58.738Z] Checked if tokens are valid: true, expires at: 1780886361461
+[debug] [2026-06-08T01:51:58.740Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-06-08T01:51:59.298Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-06-08T01:51:59.298Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2026-06-08T01:51:59.509Z] ValidationError: [select prompt] No selectable choices. All choices are disabled.
+    at C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\select\dist\commonjs\index.js:67:19
+    at C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\use-memo.js:11:27
+    at withPointer (C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:79:25)
+    at useMemo (C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\use-memo.js:6:45)
+    at C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\select\dist\commonjs\index.js:63:39
+    at C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:120:38
+    at store.handleChange (C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:31:17)
+    at cycle (C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:33:19)
+    at C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:118:13
+    at C:\Users\cmoyap\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:35:16
+[error] 
+[error] Error: An unexpected error has occurred.
